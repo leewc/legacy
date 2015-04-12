@@ -60,6 +60,155 @@
 
   <ul class="post-list">
     
+      <li>
+        <span class="post-meta">Apr 11, 2015</span>
+
+        <h2>
+          <a class="post-link" href="/2015/04/11/set_up_GitHub_pages_Jekyll_tutorial.html">How to Set up GitHub Pages, Ruby, and Jekyll</a>
+        </h2>
+
+		<!-- place holder to just display all existing posts.-->
+		<article class="unit-article layout-post">
+		    <div class="unit-inner unit-article-inner">
+		        <div class="content">
+		            <div class="bd">
+		                <div class="entry-content">
+		                    <p>There have been a lot of guides and tutorials on setting up GitHub Pages, Ruby, Jekyll and the related gems needed for GitHub Pages. They’re all great. However, I ran into is simple yet frustrating instalation issues. For one, installing the GitHub Pages gem did not mention if I need sudo or not, installing the Ruby using apt-get in Ubuntu/Debian yielded an old version, (1.9.3) as or writing. As someone that just wanted to get started with setting things up and exploring Ruby and Jeykll as a static-site generator, I couldn’t care less about versions (If it works, don’t fix it, right?). However, in this case, it doesn’t work. Gems from GitHub Pages need at least v2.0 up. I didn’t want to use a Ruby version Manager like rvm or vbenv, turns out that’s still the simplest way, and the few extra commands give a great return on investment in the future. The official ruby site did mention it’s an old and stable version from apt-get, but they didn’t mention we should grab a newer one. I can’t blame them I guess, since there’s so many web technologies that run happy on older versions of ruby.</p>
+
+<p><strong>This post serves to help first time users of GitHub Pages on how to set up a local environment that follows GitHub pages</strong>, so you can test out your sites locally before pushing that one commit that makes your experimentations live and for the whole world to see. If you’re wondering why we need another one of these tutorials, I decided to write one because I couldn’t find what I needed all in one place.</p>
+
+<p><em>This guide is tailored for users on Ubuntu/Debian.</em></p>
+
+<h1 id="heres-a-rundown">Here’s a rundown:</h1>
+
+<ol>
+  <li>Create your GitHub Pages.</li>
+  <li>Set up Ruby on your system.</li>
+  <li>Get all the gems using the github-pages gem bootstrap.</li>
+  <li>using Gems</li>
+  <li>Running Jekyll. </li>
+</ol>
+
+<h1 id="step-1">Step 1:</h1>
+
+<p>This is simple, the <a href="https://pages.github.com/">tutorial supplied</a> is really good. Nothing of much confusion.</p>
+
+<h1 id="step-2">Step 2:</h1>
+
+<p>This is where I spent an hour getting the wrong versions, installing directly to the /var/lib, and not being able to use gems.</p>
+
+<p>The version of ruby supplied from apt-get was not sufficient to install jekyll, simply doing sudo apt-get install ruby yielded a ‘lesser’ version of sorts. We needed a dev version with ruby-dev, then it turns out that was too old for github-pages. So let’s just go with using rvm.</p>
+
+<blockquote>
+  <p><strong>What is RVM?</strong>
+Ruby Version Manager. RVM assists with installing multiple versions of Ruby in the local home directory so we don’t have to install a system-wide version in <code>/var/libs</code> and mess around with sudo,</p>
+</blockquote>
+
+<p>What you’ll want to do first is add a keyring to check the downloaded rvm (for that thing called security), it’s a prerequisite. 
+After which we will download rvm and actually install it. These steps are taken directly from that website, if you’re from the future and these instructions don’t work, <a href="https://rvm.io/rvm/install">head there</a>.</p>
+
+<p>These steps also closely follow from: <a href="https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm">this tutorial</a> (the first few steps at least, since that’s a guide for Ruby on Rails, which is different from what we want)</p>
+
+<p>a. Open a terminal, you don’t need sudo for this. (In fact, only use sudo if I mention it explicitly)</p>
+
+<p><code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3</code></p>
+
+<p><em>This is all in one line by the way.</em></p>
+
+<p>b. Get the stable version of Ruby and RubyGems (Gems)</p>
+
+<p><code>\curl -sSL https://get.rvm.io | bash -s stable --ruby</code></p>
+
+<p>*That’s actually 2 commands rolled into one, we’re basically telling curl we want the stable version of RVM, and then also install ruby. </p>
+
+<p>What happens after that is that RVM is downloaded, GPG key is verified, and it’ll do it’s thing like set up the right paths and so forth. You’ll also get a nice welcome message hoping that you’ll enjoy RVM. It’ll even grab the needed dependencies based on your version! I’m so spoilt by the simplicity of it all nowadays. Just sit back and let it install. In total it fetched about 25MB for my system.</p>
+
+<p>After which RVM tells you that you need to run <code>source /home/yourUserName/.rvm/scripts/rvm</code> on all open shell windows. </p>
+
+<p>For the sake of simplicity close all other shell/terminal windows and run <code>source /home/yourUserName/.rvm/scripts/rvm</code> (no quotes, of course).</p>
+
+<p>If you did everything right, nothing will happen. (No news is good news, right?)</p>
+
+<p>To be on the safe side, execute <code>rvm requirements</code> next so that rvm can check again for any dependencies it needs. You might need <code>sudo</code>, in my case I didn’t.</p>
+
+<p>After that, we just need to ditate which version of ruby we want as default. Since ruby was already downloaded, just do:</p>
+
+<p><code>rvm use ruby --default</code></p>
+
+<p>Lastly, we need RubyGems, which is a ‘sophisticated package manager for Ruby’ as the help for gem announces. Chances are it’s already set up, but just to be on the safe side:</p>
+
+<p><code>gem install current</code></p>
+
+<p>Done.</p>
+
+<h1 id="step-3">Step 3:</h1>
+
+<p>This is simple. Just do <code>gem install github-pages</code>. Sit back and watch your computer do all the hard work. It could take a while. I got 51 gems at the end of it.</p>
+
+<h1 id="step-4">Step 4:</h1>
+
+<p>I’m adding this step because as a person that never used ruby before, I had this perception that using gems was something like running java classes or python scripts. (I actually Googled how to run gems). Turns out the issue I had was that the gems weren’t properly set up when I was using the older version of Ruby, so I felt like a monkey doing <code>gem github-pages</code>, <code>sudo gem github-pages</code> or <code>ruby github-pages</code>. All left me with command not found errors. The GitHub pages tutorial left me a little confused here. </p>
+
+<p>Turns out all I had to do was <code>github-pages</code> in the teminal! (which I previously couldn’t because it didn’t set up correctly and in my haste did not notice the message telling me I didn’t do it right)</p>
+
+<p>So all you need to do to “use gems” in the terminal is just to type the name of the gem, and whatever parameters you need. 
+(Try <code>github-pages health-check</code>, it told me I had no CNAME in current directory, which made sense because I don’t have a custom domain name at of writing.)</p>
+
+<blockquote>
+  <p><strong>What are gems?</strong>
+A bundle of joy that contains code, docmentations, and details of it’s origin/creator. For us we’ll use it like any other regular program in the bash terminal. See <a href="http://guides.rubygems.org/what-is-a-gem/">the official explanation on this</a> for more info. </p>
+</blockquote>
+
+<h1 id="step-5">Step 5:</h1>
+
+<p>We pretty much have what we need set up, now we need to run it. I thought we can resume with the given tutorial, turns out I ran into more issues too.</p>
+
+<p>Read on for instructions on overriding the _config.yml file, which I have yet to create when I first set things up. ~~I also changed the code highlighter to rouge instead of the default pygmenter ~~ (this connects to the <a href="http://jekyllrb.com/docs/installation/#optional-extras">part where the Jekyll install guides suggested</a></p>
+
+<p>Turns out you can’t change the default highlighter, I think. We’ll have to stick with <a href="https://pages.github.com/versions/">these plugins supported</a> (I really need to read up on this and will update accordingly. Hopefully.)</p>
+
+<p>Run these commands as listed from the github-pages tutorial: (if you haven’t already, I didn’t do that at that time)</p>
+
+<blockquote>
+  <p><code>gem install bundler</code> (this is needed to run update as well as keep our environment like GitHub’s)</p>
+</blockquote>
+
+<p>*It also mentions that we should run <code>bundle update</code> occasionally to keep things up to date. So yeah, do that every now and then.</p>
+
+<p>Go to your site’s repo (in the root directory) and create an empty file named Gemfile (no .txt or extensions!)
+&gt; Add the following:  <code>gem 'github-pages'</code></p>
+
+<p><strong>Install Node.js</strong>, with ‘sudo apt-get install nodejs’ without this I had errors from execjs, <a href="http://stackoverflow.com/questions/6282307/execjs-and-could-not-find-a-javascript-runtime">StackOverflow helped</a>!</p>
+
+<p>After which run <code>bundle install</code> (I tried doing this without the gemfile and got ‘Could not locate Gemfile or .bundle/ directory’ as a response)</p>
+
+<p>Now run this in the root of your sites repo: <code>bundle exec jekyll serve</code></p>
+
+<p>And navigate to <code>http://localhost:4000</code></p>
+
+<p>You should see that simple GitHub page you made, in my case it was a simple hello world (now it’s this post!). So much in the background for that! </p>
+
+<p>Also you could copy and edit over files from the default Jekyll generated site template using the <code>jekyll new my-awesome-site</code> and then push that over to GitHub Pages, and then start off from there if you prefer, since without all that just having an index.html looked literally just like writing an index.html with nothing else (because that’s what it is).</p>
+
+<p>Here’s how this blog originally (currently at time of writing) looks after adapting the default Jekyll template.</p>
+
+<p><img src="/assets/images/initial_look.png" alt="Initial Look. Vanilla." /></p>
+
+<p>Also, for validating YAML files, you might find this site really useful: <a href="www.yamllint.com">YAML Lint</a></p>
+
+<p>We can continue with reading the <a href="http://jekyllrb.com/docs/usage/">basic documentation for Jekyll</a></p>
+
+<p>Hope this helped! </p>
+
+
+		                </div><!-- entry-content -->
+		            </div><!-- bd -->
+		        </div><!-- content -->
+		    </div><!-- unit-inner -->
+		</article>
+
+      </li>
+    
   </ul>
 
 
