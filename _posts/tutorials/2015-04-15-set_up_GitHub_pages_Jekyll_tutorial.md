@@ -69,6 +69,15 @@ Lastly, we need RubyGems, which is a 'sophisticated package manager for Ruby' as
 
 Done.
 
+#To avoid having to run the source command every time ..#
+We need to add `[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"` to the bashrc file.
+
+This is done by giving your favorite text editor sudo priveledges and modifying `~/.bashrc`.
+If you have no idea what I just said.. open a terminal, type `sudo nano ~/.bashrc`, enter your password. You should see code. Go all the way to the end of the file, copy/paste or type that one liner right there. Save with `CTRL-O` and then `CTRL-X' to close. Again, *you will need sudo*!
+
+Credits to [this SO post](http://stackoverflow.com/questions/9336596/rvm-installation-not-working-rvm-is-not-a-function)
+
+
 #Step 3:#
 
 This is simple. Just do `gem install github-pages`. Sit back and watch your computer do all the hard work. It could take a while. I got 51 gems at the end of it.
