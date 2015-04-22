@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include js.html %}
+  {% include head.html %}
+
+  <body class="homepage">
+
+    
+      {% include header-with-button.html %}
+
+      
+      {{ content }}
+
+      <!-- We don't want to wrap content from layouts that use frontpage styling as those should be contained within their own sections. And putting it nested in another div class will not differentiate the sections and not split sections up per styles in CSS
+      <div class="page-content">
+        <div class="wrapper">
+       
+        </div>
+      </div>
+      -->
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
