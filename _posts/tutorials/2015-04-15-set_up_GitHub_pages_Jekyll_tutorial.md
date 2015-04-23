@@ -1,8 +1,7 @@
 ---
 title : How to Set up GitHub Pages, Ruby, and Jekyll
-layout : post
+layout : no-sidebar
 date: 2015-04-11 21:36
-
 ---
 
 There have been a lot of guides and tutorials on setting up GitHub Pages, Ruby, Jekyll and the related gems needed for GitHub Pages. They're all great. However, I ran into is simple yet frustrating instalation issues. For one, installing the GitHub Pages gem did not mention if I need sudo or not, installing the Ruby using apt-get in Ubuntu/Debian yielded an old version, (1.9.3) as or writing. As someone that just wanted to get started with setting things up and exploring Ruby and Jeykll as a static-site generator, I couldn't care less about versions (If it works, don't fix it, right?). However, in this case, it doesn't work. Gems from GitHub Pages need at least v2.0 up. I didn't want to use a Ruby version Manager like rvm or vbenv, turns out that's still the simplest way, and the few extra commands give a great return on investment in the future. The official ruby site did mention it's an old and stable version from apt-get, but they didn't mention we should grab a newer one. I can't blame them I guess, since there's so many web technologies that run happy on older versions of ruby.
