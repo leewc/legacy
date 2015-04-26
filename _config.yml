@@ -16,3 +16,4 @@ github_username:  leewc
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
