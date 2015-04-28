@@ -5,17 +5,6 @@ layout : no-sidebar
 date: 2015-04-11 21:36
 ---
 
-	this is a code block. aisj
-	system.out.println(hmm);
-
-`this is teh codez: Testing for GitHub Pages code highlighting`
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-
 There have been a lot of guides and tutorials on setting up GitHub Pages, Ruby, Jekyll and the related gems needed for GitHub Pages. They're all great. However, I ran into is simple yet frustrating instalation issues. For one, installing the GitHub Pages gem did not mention if I need sudo or not, installing the Ruby using apt-get in Ubuntu/Debian yielded an old version, (1.9.3) as or writing. As someone that just wanted to get started with setting things up and exploring Ruby and Jeykll as a static-site generator, I couldn't care less about versions (If it works, don't fix it, right?). However, in this case, it doesn't work. Gems from GitHub Pages need at least v2.0 up. I didn't want to use a Ruby version Manager like rvm or vbenv, turns out that's still the simplest way, and the few extra commands give a great return on investment in the future. The official ruby site did mention it's an old and stable version from apt-get, but they didn't mention we should grab a newer one. I can't blame them I guess, since there's so many web technologies that run happy on older versions of ruby.
 
 **This post serves to help first time users of GitHub Pages on how to set up a local environment that follows GitHub pages**, so you can test out your sites locally before pushing that one commit that makes your experimentations live and for the whole world to see. If you're wondering why we need another one of these tutorials, I decided to write one because I couldn't find what I needed all in one place.
