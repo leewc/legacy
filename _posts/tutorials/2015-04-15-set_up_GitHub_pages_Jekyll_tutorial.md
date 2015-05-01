@@ -125,7 +125,7 @@ Also you could copy and edit over files from the default Jekyll generated site t
 
 Here's how this blog originally (currently at time of writing) looks after adapting the default Jekyll template.
 
-![Initial Look. Vanilla.](/assets/images/initial_look.png)
+![Initial Look. Vanilla.](/assets/images/initial_look.png){: .totem}
 
 Also, for validating YAML files, you might find this site really useful: [YAML Lint](www.yamllint.com)
 
