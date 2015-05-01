@@ -244,8 +244,12 @@
 			outline: 0;
 		}
 		
-			/* Uncomment the block below if you want linked images to highlight on hover */
-		
+			img /* http://webdesignerwall.com/tutorials/5-useful-css-tricks-for-responsive-design/ */
+			{
+				max-width: 100%;
+				width: auto;	
+			}
+
 			.image img
 			{
 				display: block;
@@ -257,6 +261,8 @@
 				display: block;
 				width: 100%;
 			}
+
+			
 
 			.image.featured
 			{

@@ -127,7 +127,6 @@ Here's how this blog originally (currently at time of writing) looks after adapt
 
 ![Initial Look. Vanilla.](/assets/images/initial_look.png)
 
-
 Also, for validating YAML files, you might find this site really useful: [YAML Lint](www.yamllint.com)
 
 We can continue with reading the [basic documentation for Jekyll](http://jekyllrb.com/docs/usage/)
