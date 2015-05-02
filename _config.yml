@@ -19,7 +19,7 @@ markdown: kramdown
 highlighter: pygments
 
 kramdown: 
-    input: 'GFM'
+    input: GFM
 
 exclude: [_exclude, "README.markdown", "Gemfile.lock", "Gemfile"]
 

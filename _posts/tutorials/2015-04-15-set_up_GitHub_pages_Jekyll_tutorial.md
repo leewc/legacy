@@ -99,7 +99,7 @@ So all you need to do to "use gems" in the terminal is just to type the name of 
 
 We pretty much have what we need set up, now we need to run it. I thought we can resume with the given tutorial, turns out I ran into more issues too.
 
-Read on for instructions on overriding the _config.yml file, which I have yet to create when I first set things up. ~~I also changed the code highlighter to rouge instead of the default pygmenter  (this connects to the [part where the Jekyll install guides suggested](http://jekyllrb.com/docs/installation/#optional-extras)~~
+Read on for instructions on overriding the _config.yml file, which I have yet to create when I first set things up. <strike>I also changed the code highlighter to rouge instead of the default pygmenter</strike>  (this connects to the [part where the Jekyll install guides suggested](http://jekyllrb.com/docs/installation/#optional-extras)
 
 Turns out you can't change the default highlighter, I think. We'll have to stick with [these plugins supported](https://pages.github.com/versions/) (I really need to read up on this and will update accordingly. Hopefully.)
 
