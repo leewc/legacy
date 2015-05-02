@@ -18,7 +18,10 @@ github_username:  leewc
 markdown: kramdown
 highlighter: pygments
 
-exclude: _exclude
+kramdown: 
+    input: 'GFM'
+
+exclude: [_exclude, "README.markdown", "Gemfile.lock", "Gemfile"]
 
 gems:
     - jekyll-sitemap
