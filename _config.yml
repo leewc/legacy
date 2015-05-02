@@ -18,5 +18,7 @@ github_username:  leewc
 markdown: kramdown
 highlighter: pygments
 
+exclude: _exclude
+
 gems:
     - jekyll-sitemap
