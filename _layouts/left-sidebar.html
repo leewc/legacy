@@ -32,6 +32,9 @@
 					<!-- ANY CONTENT THAT USES THIS LAYOUT IS SLOT HERE AFTER THE SIDEBAR CODE, BUT IN THE SAME WRAPPED DIV SO THEY ARE DISPLAYED SIDE-BY-SIDE-->
 					<div class="8u important(collapse)" id="content">
 						<article id="main">
+						
+							{% include page-meta.html %}
+
 							{{ content }}
 						</article>
 					</div>

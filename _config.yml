@@ -1,7 +1,6 @@
 # Site settings
 
-title: Hello there.
-footertitle: Contact Me
+title: Pragmatic Lee
 email: leewenchuan.lwc@gmail.com
 
 #description: > this means to ignore newlines until "baseurl:"
@@ -10,16 +9,29 @@ email: leewenchuan.lwc@gmail.com
 #  Google search results) and in your feed.xml site description.
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://leewc.github.io" # the base hostname & protocol for your site
-twitter_username: wenchuanlee
+url: "http://leewc.github.io" 	# the base hostname & protocol for your site
+site_name: Helios 				# name put in headers of all pages
+
+#usernames used in social media links in the contact footer
+twitter_username: yourusername
 github_username:  leewc
+facebook_username: yourusername 	#username when you view your timeline (also found in facebook settings)
+instagram_username: yourusername
+
+linkedin_profile: https://www.linkedin.com/pub/profile  #place the link to your linkedin profile here 
+pinterest_username: yourusername #do not have these, but original Helios theme has the social media link for them
+dribbble_username: yourusername 
+
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
+permalink: pretty #removes the .html from link by making all posts have their own folder and named as index.html
 
 kramdown: 
     input: GFM
+
+excerpt_separator: <!--more-->
 
 exclude: [_exclude, "README.markdown", "Gemfile.lock", "Gemfile"]
 

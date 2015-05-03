@@ -1,0 +1,8 @@
+{% if page.meta == off %}
+	<p class="post-meta">
+		{% if page.date %} • {{ page.date | date: "%B %-d %Y" }} {% endif %} 
+		{% if page.category %} • {{ page.categories }} {% endif %} 
+		• {{ page.content | number_of_words }} words 
+		• {% include read-time.html %}
+	</p>
+{% endif %}
