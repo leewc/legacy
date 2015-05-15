@@ -17,68 +17,31 @@
 		<hr />
 		<section>
 			<header>
-				<h3><a href="#">Sed lorem etiam consequat</a></h3>
+				<h3>Recent Posts under {{ page.category | capitalize }}</h3>
 			</header>
 			<p>
-				Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+				Here's a few other posts you might enjoy.
 			</p>
-			<div class="row 50% no-collapse">
-				<div class="4u">
-					<a href="#" class="image fit"><img src="/assets/images/pic10.jpg" alt="" /></a>
+			<br />
+		{% for post in site.categories[page.category] limit:15 %}
+			{% if post.url %}
+				<div class="row 50% no-collapse">
+					{% if post.thumbnail %}
+						<div class="4u">
+						<a href= {{ post.url }} class="image fit"><img src="/assets/images/posts/{{ post.thumbnail }}" alt="" /></a>
+						</div>
+					{% endif %}
+					<div class="8u">
+						<h4><a href= {{ post.url }}> {{ post.title }}</a></h4>
+					<p> {{ post.subtitle }} </p>
+					</div>
 				</div>
-				<div class="8u">
-					<h4>Nibh sed cubilia</h4>
-					<p>
-						Amet nullam fringilla nibh nulla convallis tique ante proin.
-					</p>
-				</div>
-			</div>
-			<div class="row 50% no-collapse">
-				<div class="4u">
-					<a href="#" class="image fit"><img src="/assets/images/pic11.jpg" alt="" /></a>
-				</div>
-				<div class="8u">
-					<h4>Proin sed adipiscing</h4>
-					<p>
-						Amet nullam fringilla nibh nulla convallis tique ante proin.
-					</p>
-				</div>
-			</div>
-			<div class="row 50% no-collapse">
-				<div class="4u">
-					<a href="#" class="image fit"><img src="/assets/images/pic12.jpg" alt="" /></a>
-				</div>
-				<div class="8u">
-					<h4>Lorem feugiat magna</h4>
-					<p>
-						Amet nullam fringilla nibh nulla convallis tique ante proin.
-					</p>
-				</div>
-			</div>
-			<div class="row 50% no-collapse">
-				<div class="4u">
-					<a href="#" class="image fit"><img src="/assets/images/pic13.jpg" alt="" /></a>
-				</div>
-				<div class="8u">
-					<h4>Sed tempus fringilla</h4>
-					<p>
-						Amet nullam fringilla nibh nulla convallis tique ante proin.
-					</p>
-				</div>
-			</div>
-			<div class="row 50% no-collapse">
-				<div class="4u">
-					<a href="#" class="image fit"><img src="/assets/images/pic14.jpg" alt="" /></a>
-				</div>
-				<div class="8u">
-					<h4>Malesuada fermentum</h4>
-					<p>
-						Amet nullam fringilla nibh nulla convallis tique ante proin.
-					</p>
-				</div>
-			</div>
+				<br />
+			{% endif %}
+		{% endfor %}
+
 			<footer>
-				<a href="#" class="button">Magna Adipiscing</a>
+				<a href="/posts/" class="button">View All Posts</a>
 			</footer>
 		</section>
 	</div>

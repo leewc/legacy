@@ -15,26 +15,25 @@ There have been a lot of guides and tutorials on setting up GitHub Pages, Ruby, 
 
 <!--more-->
 
-#Here's a rundown:#
+### Here's a rundown:
 
-1. Create your GitHub Pages.
-2. Set up Ruby on your system.
-3. Get all the gems using the github-pages gem bootstrap.
-4. using Gems
-5. Running Jekyll. 
+- 1.Create your GitHub Pages.
+- 2.Set up Ruby on your system.
+- 3.Get all the gems using the github-pages gem bootstrap.
+- 4.Using Gems
+- 5.Running Jekyll. 
 
-#Step 1:#
-
+# Step 1:
 This is simple, the [tutorial supplied](https://pages.github.com/) is really good. Nothing of much confusion.
 
-#Step 2:#
+# Step 2:
 
 This is where I spent an hour getting the wrong versions, installing directly to the /var/lib, and not being able to use gems.
 
 The version of ruby supplied from apt-get was not sufficient to install jekyll, simply doing sudo apt-get install ruby yielded a 'lesser' version of sorts. We needed a dev version with ruby-dev, then it turns out that was too old for github-pages. So let's just go with using rvm.
 
  > **What is RVM?**
- > Ruby Version Manager. RVM assists with installing multiple versions of Ruby in the local home directory so we don't have to install a system-wide version in `/var/libs` and mess around with sudo,
+ > Ruby Version Manager. RVM assists with installing multiple versions of Ruby in the local home directory so we don't have to install a system-wide version in `/var/libs` and mess around with sudo.
 
 What you'll want to do first is add a keyring to check the downloaded rvm (for that thing called security), it's a prerequisite. 
 After which we will download rvm and actually install it. These steps are taken directly from that website, if you're from the future and these instructions don't work, [head there](https://rvm.io/rvm/install).
@@ -73,7 +72,7 @@ Lastly, we need RubyGems, which is a 'sophisticated package manager for Ruby' as
 
 Done.
 
-#To avoid having to run the source command every time ..#
+#To avoid having to run the source command every time ..
 We need to add `[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"` to the bashrc file.
 
 This is done by giving your favorite text editor sudo priveledges and modifying `~/.bashrc`.
@@ -82,11 +81,11 @@ If you have no idea what I just said.. open a terminal, type `sudo nano ~/.bashr
 Credits to [this SO post](http://stackoverflow.com/questions/9336596/rvm-installation-not-working-rvm-is-not-a-function)
 
 
-#Step 3:#
+# Step 3:
 
 This is simple. Just do `gem install github-pages`. Sit back and watch your computer do all the hard work. It could take a while. I got 51 gems at the end of it.
 
-#Step 4:#
+# Step 4:
 
 I'm adding this step because as a person that never used ruby before, I had this perception that using gems was something like running java classes or python scripts. (I actually Googled how to run gems). Turns out the issue I had was that the gems weren't properly set up when I was using the older version of Ruby, so I felt like a monkey doing `gem github-pages`, `sudo gem github-pages` or `ruby github-pages`. All left me with command not found errors. The GitHub pages tutorial left me a little confused here. 
 
@@ -98,7 +97,7 @@ So all you need to do to "use gems" in the terminal is just to type the name of 
 > **What are gems?**
 > A bundle of joy that contains code, docmentations, and details of it's origin/creator. For us we'll use it like any other regular program in the bash terminal. See [the official explanation on this](http://guides.rubygems.org/what-is-a-gem/) for more info. 
 
-#Step 5:#
+#Step 5:
 
 We pretty much have what we need set up, now we need to run it. I thought we can resume with the given tutorial, turns out I ran into more issues too.
 
