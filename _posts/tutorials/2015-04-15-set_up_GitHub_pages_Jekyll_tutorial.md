@@ -97,7 +97,7 @@ So all you need to do to "use gems" in the terminal is just to type the name of 
 > **What are gems?**
 > A bundle of joy that contains code, docmentations, and details of it's origin/creator. For us we'll use it like any other regular program in the bash terminal. See [the official explanation on this](http://guides.rubygems.org/what-is-a-gem/) for more info. 
 
-#Step 5:
+# Step 5:
 
 We pretty much have what we need set up, now we need to run it. I thought we can resume with the given tutorial, turns out I ran into more issues too.
 
