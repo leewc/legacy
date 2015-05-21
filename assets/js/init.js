@@ -299,6 +299,16 @@
 
 			}
 
+	/*Display class when scroll down*/
+	$(window).scroll(function(event){
+		var scroll = $(window).scrollTop();
+	    if (scroll >= 300) {
+	        $(".go-top").addClass("show");
+	    } else {
+	        $(".go-top").removeClass("show");
+	    }
+	});
+
 	});
 
 })(jQuery);
