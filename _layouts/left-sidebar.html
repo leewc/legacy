@@ -9,11 +9,10 @@
 <html>
 
 	{% include head.html %}
-	{% include js.html %}
 
-		<body class="left-sidebar">
-
-		{% include header.html %}
+	<body class="left-sidebar">
+		<div id="page-wrapper">
+			{% include header.html %}
 
 		<!-- We don't want to wrap content from layouts that use frontpage styling as those should be contained within their own sections. And putting it nested in another div class will not differentiate the sections and not split sections up per styles in CSS
       <div class="page-content">
@@ -57,7 +56,8 @@
 		</div>
 
 		{% include footer.html %}
-
+	</div>
+		{% include js.html %}
   		</body>
 
 </html>
