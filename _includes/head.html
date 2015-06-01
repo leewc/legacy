@@ -9,4 +9,10 @@
     
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     {% comment %} <!-- head and then only header, then only body --> {% endcomment %}
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+    {% comment %} <!--always load code highlighter regardless of screensize or noscript --> {% endcomment %}
+    <link rel="stylesheet" href="/assets/css/syntax.css"> 
 </head>
