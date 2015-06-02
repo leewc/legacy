@@ -15,6 +15,7 @@
 
 		{% include header.html %}
 
+		{% comment %}
 		<!-- We don't want to wrap content from layouts that use frontpage styling as those should be contained within their own sections. And putting it nested in another div class will not differentiate the sections and not split sections up per styles in CSS
       <div class="page-content">
         <div class="wrapper">
@@ -22,14 +23,16 @@
         </div>
       </div>
       -->
-
+      	{% endcomment %}
 		<div class="wrapper style1">
 	      	<div class="container">
 	      		<div class="row 200%">
 
 	      			{% include sidebar.html %}
 
-					<!-- ANY CONTENT THAT USES THIS LAYOUT IS SLOT HERE AFTER THE SIDEBAR CODE, BUT IN THE SAME WRAPPED DIV SO THEY ARE DISPLAYED SIDE-BY-SIDE-->
+	      			{% comment %}
+					<!-- ANY CONTENT THAT USES THIS LAYOUT IS SLOT HERE AFTER THE SIDEBAR CODE, BUT IN THE SAME WRAPPED DIV SO THEY ARE DISPLAYED SIDE-BY-SIDE--> 
+					{% endcomment %}
 					<div class="8u important(collapse)" id="content">
 						<article id="main">
 

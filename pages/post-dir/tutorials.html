@@ -1,0 +1,26 @@
+---
+title: Tutorials
+subtitle: Posts filed under Tutorials
+layout: no-sidebar
+meta: off
+permalink : /tutorials/
+---
+
+{% for post in site.categories['tutorials'] %}
+<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+<span class="post-meta"><h1>{{ post.date | date: "%b %-d, %Y" }}</h1></span>
+<article class="unit-article layout-post">
+    <div class="unit-inner unit-article-inner">
+        <div class="excerpt">
+            <div class="bd">
+            	{% if post.excerpt %}
+                <div class="entry-excerpt">
+                    {{ post.excerpt }}
+                </div>
+                {% endif%}
+                <a class="button" href="{{ post.url | prepend: site.baseurl }}"> Read more</a>
+            </div>
+        </div>
+    </div>
+</article>
+{% endfor %}

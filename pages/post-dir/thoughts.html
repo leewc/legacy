@@ -1,0 +1,26 @@
+---
+title: Thoughts
+subtitle: I think, therefore I am.. am I? 
+layout: no-sidebar
+meta: off
+permalink : /thoughts/
+---
+
+{% for post in site.categories['thoughts'] %}
+    <h1>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h1>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<article class="unit-article layout-post">
+	    <div class="unit-inner unit-article-inner">
+	        <div class="excerpt">
+	            <div class="bd">
+	                <div class="entry-excerpt">
+	                    {{ post.excerpt }}
+	                </div>
+	                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> Read more ..</a>
+	            </div>
+	        </div>
+	    </div>
+	</article>
+{% endfor %}

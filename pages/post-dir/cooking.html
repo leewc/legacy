@@ -1,0 +1,42 @@
+---
+title: Cooking
+subtitle: Practical and interesting recipes for the average college student. 
+layout: no-sidebar
+meta: off
+permalink : /cooking/
+---
+
+<section class="carousel">
+<div class="reel">
+	{% for post in site.categories['cooking'] %}
+	  <article>
+	    <a href="{{ post.url | prepend: site.baseurl }} class="image featured"><img src="/assets/images/posts/{{ post.thumbnail }}" alt="" /></a>
+	    <header>
+	      <h3><a href="{{ post.url | prepend: site.baseurl }}> {{ post.title }}</a></h3>
+	    </header>
+	    <p> {{ post.subtitle }} </p>             
+	  </article>
+	{% endfor %}
+</div>
+</section>
+
+
+{% for post in site.categories['cooking'] %}
+    <h1>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h1>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<article class="unit-article layout-post">
+	    <div class="unit-inner unit-article-inner">
+	        <div class="excerpt">
+	            <div class="bd">
+	                <div class="entry-excerpt">
+	                    {{ post.excerpt }}
+	                </div>
+	                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> Read more ..</a>
+	            </div>
+	        </div>
+	    </div>
+	</article>
+{% endfor %}
+

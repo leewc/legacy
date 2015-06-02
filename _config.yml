@@ -1,27 +1,25 @@
 # Site settings
 
-title: Pragmatic Lee
+title: leewc
 email: leewenchuan.lwc@gmail.com
 
-#description: > this means to ignore newlines until "baseurl:"
+description: A blog on programming, software development, thoughts, and food.
+
 # Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://leewc.github.io" 	# the base hostname & protocol for your site
-site_name: Helios 				# name put in headers of all pages
 
 #usernames used in social media links in the contact footer
-twitter_username: yourusername
+twitter_username: wenchuanlee
 github_username:  leewc
-facebook_username: yourusername 	#username when you view your timeline (also found in facebook settings)
-instagram_username: yourusername
+facebook_username: wenchuan21 	#username when you view your timeline (also found in facebook settings)
+instagram_username: wenchuan_lee
+stackoverflow_username: 4512948/matrixanomaly #userid/username, will be a link as : http://stackoverflow.com/users/{{stackoverflow_username}}
 
 linkedin_profile: https://www.linkedin.com/pub/profile  #place the link to your linkedin profile here 
-pinterest_username: yourusername #do not have these, but original Helios theme has the social media link for them
-dribbble_username: yourusername 
-
 
 # Build settings
 markdown: kramdown

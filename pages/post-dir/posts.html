@@ -1,19 +1,17 @@
 ---
+title: All Posts
+subtitle: Sorted from the most recent.
 layout: no-sidebar
 meta: off
+permalink: /posts/
 ---
-
- <h2> All Posts </h2>
-
-<br/>
-<br/>
+<hr /> 
 
 {% for post in site.posts %}
-    <h1>
+    <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h1>
+    </h2>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    
 
 	<article class="unit-article layout-post">
 	    <div class="unit-inner unit-article-inner">
@@ -21,12 +19,11 @@ meta: off
 	            <div class="bd">
 	                <div class="entry-excerpt">
 	                    {{ post.excerpt }}
-	                </div><!-- entry-excerpt -->
-	                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"> Read more ..</a>
-	            </div><!-- bd -->
-	        </div><!-- excerpt -->
-	    </div><!-- unit-inner -->
+	                </div>
+	                <a class="button" href="{{ post.url | prepend: site.baseurl }}"> Read more</a>
+	            </div>
+	        </div>
+	    </div>
 	</article>
-
 {% endfor %}
   
