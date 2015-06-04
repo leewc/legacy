@@ -99,7 +99,7 @@
 	
 		a:hover
 		{
-			color: #ef8376;
+			color: #00BBFF;
 			border-bottom-color: transparent;
 		}
 
@@ -403,7 +403,7 @@
 					
 						ul.icons li a:hover
 						{
-							color: #ef8376;
+							color: #00b8ff;
 						}
 		
 		ol
@@ -476,7 +476,7 @@
 				form textarea:focus
 				{
 					background: #fff;
-					border-color: #df7366;
+					border-color: #6ADFD2;
 				}
 
 				form .formerize-placeholder
@@ -567,7 +567,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background: #df7366;
+			background: rgba(33, 150, 211, 1);
 			color: #fff;
 			text-align: center;
 			border-radius: 0.5em;
@@ -590,7 +590,7 @@
 			.button:hover
 			{
 				color: #fff;
-				background: #ef8376;
+				background: rgba(71, 169, 219, 1);
 			}
 			
 			input[type="button"].alt,
@@ -652,7 +652,7 @@
 	.go-top.show { bottom: 20px; }
 
 	.go-top:hover {
-	  background-color: #df7366;
+	  background-color: rgba(33, 150, 211, 1);
 	  color: #FFFFFF;
 	}
 
@@ -745,7 +745,7 @@
 			.homepage #header .overlay
 			{
 				content: '';
-				background: #1C0920;
+				background: #0A0720;
 				display: block;
 				position: absolute;
 				left: 0;
@@ -948,7 +948,7 @@
 
 			.dropotron li:hover
 			{
-				color: #ef8376;
+				color: rgba(71, 169, 219, 1);;
 			}
 
 			.dropotron li a,
@@ -1212,7 +1212,7 @@
 			.carousel .forward:hover:before,
 			.carousel .backward:hover:before
 			{
-				background-color: rgba(239,131,118, 0.75);
+				background-color: rgba(33, 150, 211, 1);
 			}
 
 		.carousel .reel
