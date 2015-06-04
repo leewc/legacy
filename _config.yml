@@ -29,7 +29,7 @@ permalink: pretty #removes the .html from link by making all posts have their ow
 kramdown: 
     input: GFM
 
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 
 exclude: [_exclude, "README.markdown", "Gemfile.lock", "Gemfile"]
 

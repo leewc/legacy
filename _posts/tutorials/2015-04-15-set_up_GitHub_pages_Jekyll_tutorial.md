@@ -13,7 +13,7 @@ There have been a lot of guides and tutorials on setting up GitHub Pages, Ruby, 
 
 *This guide is tailored for users on Ubuntu/Debian.*
 
-<!--more-->
+<!-- more -->
 
 ### Here's a rundown:
 

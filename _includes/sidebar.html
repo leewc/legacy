@@ -1,19 +1,18 @@
 <!-- Sidebar Code -->
 	<div class="4u" id="sidebar">
 		<hr class="first" />
+	
+	{% if page.category == 'cooking' %}
 		<section>
 			<header>
-				<h3><a href="#">Accumsan sed penatibus</a></h3>
+				<h3>Everybody can cook.</h3>
 			</header>
+			<p style="text-align: right"> - Ratatouille </p>
 			<p>
-				Dolor sed fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-				porttitor phasellus tempus cubilia ultrices tempor sagittis  tellus ante diam nec penatibus dolor cras
-				magna tempus feugiat veroeros.
-			</p>
-			<footer>
-				<a href="#" class="button">Learn More</a>
-			</footer>
+			<b>Q:</b> Why are you posting recipes on a computer blog? It looks like you're more interested in cooking than computer science.</p>
+			<p> <b>A:</b> I want to share practical recipes that college students can afford to cook and make, in terms of time and money. Also, I am still human so I cook to eat frequently enough that the chances of me making a meal worthy of blogging is way higher than writing code worthy to talk about, because that takes way more time.</p>
 		</section>
+	{% endif %}
 		<hr />
 		<section>
 			<header>
@@ -39,9 +38,8 @@
 				<br />
 			{% endif %}
 		{% endfor %}
-
 			<footer>
-				<a href="/posts/" class="button">View All Posts</a>
+				<a href="/{{ page.category }}/" class="button">View All Posts under {{ page.category | capitalize }} </a>
 			</footer>
 		</section>
 	</div>
