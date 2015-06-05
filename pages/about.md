@@ -5,11 +5,11 @@ meta: off
 permalink: /about/
 ---
 
-I'm Lee, currently a senior studying *Computer Science* at the **University of Minnesota, Twin Cities**. Ergo, I'm located in Minneapolis.
+I'm Lee, currently a senior studying *Computer Science* at the **University of Minnesota, Twin Cities**. Ergo, I'm currently located in Minneapolis.
 
-Well, I usually go by my last name as my first name, because Wen Chuan Lee isn't the easiest name to pronounce, and it's a common occurence people think 'Chuan' is my middle name which gets truncated to Wen Lee. Not that there's anything wrong with that name, but I definitely prefer just 'Lee' over the single 'Wen'. 
+Well, I usually go by my last name as my first name, because Wen Chuan Lee isn't the easiest name to pronounce, and it's a common occurrence people think 'Chuan' is my middle name which gets truncated to Wen Lee. Not that there's anything wrong with that name, but I definitely prefer just 'Lee' over the single 'Wen'. 
 
-I'm from originally **Malaysia** where it's easily over 32°C [89°F] and survived 2 cold winters here in Minnesota where it's usually -25°C [-13°F]. The only other time I've seen snow was this one time in Korea. At this rate I've seen and lived with enough snow for a lifetime. I am alsos 8981 miles away (14453.5 kilometers for us metric people) from home.
+I'm from originally **Malaysia** where it's easily over 32°C [89°F] and survived 2 cold winters here in Minnesota where it's usually -25°C [-13°F]. The only other time I've seen snow was this one time in Korea. At this rate I've seen and lived with enough snow for a lifetime. I am also 8981 miles away (14453.5 kilometers for us metric people) from home.
 
 I speak 3 languages, English being my first language, Mandarin being my second one and then Bahasa Malaysia. I also know other languages.
 
@@ -29,7 +29,7 @@ Although, I'm also more of a practical person. While I do dream, I find myself c
 
 Think that pretty much fits the bill for an about me page. At least in professional/blogger kind of way. 
 
-Although you won't always catch me saying this with dripping enthusiasm, I look forward to what life will bring me, at least I try to tell myself that. 
+Although you won't always catch me saying this with dripping enthusiasm, I look forward to what life will bring me, at least I try to tell myself that. Oh, I also like photography although I haven't devoted enough time and effort in fully exploring that path. The background photo on this website was shot by me at Sausalito during my trip in California. Image metadata tells me it was taken at coordinates (37°50'59.1"N 122°28'47.7"W). 
 
 Check me out on [StackOverflow](https://www.stackoverflow.com/users/4512948/matrixanomaly), and follow me on [Twitter](https://www.twitter.com/wenchuanlee) if you're interested. ☺
 
