@@ -62,3 +62,4 @@ Armed with only those tools this website would still not be possible without a l
 - [Reading time without plugins](http://carlosbecker.com/posts/jekyll-reading-time-without-plugins/) by Carlos Becker
 - [Back to top Button](http://www.jqueryscript.net/other/Minimal-Back-To-Top-Functionality-with-jQuery-CSS3.html) which I adapted by not using the JQuery supplied and instead the Scrolly script included with the theme
 - [Responsive Images and Responsive Design](http://webdesignerwall.com/tutorials/5-useful-css-tricks-for-responsive-design) allowed for centered images that scale according to screen size! :)
+- [Favicon Sizes Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet) by Audrey
