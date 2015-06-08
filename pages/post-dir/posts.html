@@ -17,6 +17,7 @@ permalink: /posts/
 	    <div class="unit-inner unit-article-inner">
 	        <div class="excerpt">
 	            <div class="bd">
+	            {% if post.subtitle %} <strong>{{ post.subtitle }}</strong> {% endif %}
 	                <div class="entry-excerpt">
 	                    {{ post.excerpt }}
 	                </div>
@@ -26,4 +27,5 @@ permalink: /posts/
 	    </div>
 	</article>
 {% endfor %}
-  
+ <hr/>
+ <div style="text-align: center"> “Fate, it seems, is not without a sense of irony.” - <i>Morpheus, the Matrix</i> </div>

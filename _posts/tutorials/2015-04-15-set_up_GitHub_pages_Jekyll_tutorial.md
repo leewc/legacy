@@ -9,11 +9,10 @@ layout : no-sidebar
 
 There have been a lot of guides and tutorials on setting up GitHub Pages, Ruby, Jekyll and the related gems needed for GitHub Pages. They're all great. However, I ran into is simple yet frustrating installation issues. For one, installing the GitHub Pages gem did not mention if I need sudo or not, installing the Ruby using apt-get in Ubuntu/Debian yielded an old version, (1.9.3) as or writing. As someone that just wanted to get started with setting things up and exploring Ruby and Jeykll as a static-site generator, I couldn't care less about versions (If it works, don't fix it, right?). However, in this case, it doesn't work. Gems from GitHub Pages need at least v2.0 up. I didn't want to use a Ruby version Manager like rvm or vbenv, turns out that's still the simplest way, and the few extra commands give a great return on investment in the future. The official ruby site did mention it's an old and stable version from apt-get, but they didn't mention we should grab a newer one. I can't blame them I guess, since there's so many web technologies that run happy on older versions of ruby.
 
-**This post serves to help first time users of GitHub Pages on how to set up a local environment that follows GitHub pages**, so you can test out your sites locally before pushing that one commit that makes your experimentations live and for the whole world to see. If you're wondering why we need another one of these tutorials, I decided to write one because I couldn't find what I needed all in one place.
+**This post serves to help first time users of GitHub Pages on how to set up a local environment that follows GitHub pages**, <!-- more --> so you can test out your sites locally before pushing that one commit that makes your experimentations live and for the whole world to see. If you're wondering why we need another one of these tutorials, I decided to write one because I couldn't find what I needed all in one place.
 
 *This guide is tailored for users on Ubuntu/Debian.*
 
-<!-- more -->
 
 ### Here's a rundown:
 
@@ -30,7 +29,7 @@ This is simple, the [tutorial supplied](https://pages.github.com/) is really goo
 
 This is where I spent an hour getting the wrong versions, installing directly to the /var/lib, and not being able to use gems.
 
-The version of ruby supplied from apt-get was not sufficient to install jekyll, simply doing sudo apt-get install ruby yielded a 'lesser' version of sorts. We needed a dev version with ruby-dev, then it turns out that was too old for github-pages. So let's just go with using rvm.
+The version of ruby supplied from apt-get was not sufficient to install Jekyll, simply doing sudo apt-get install ruby yielded a 'lesser' version of sorts. We needed a dev version with ruby-dev, then it turns out that was too old for github-pages. So let's just go with using rvm.
 
  > **What is RVM?**
  > Ruby Version Manager. RVM assists with installing multiple versions of Ruby in the local home directory so we don't have to install a system-wide version in `/var/libs` and mess around with sudo.
@@ -62,7 +61,7 @@ If you did everything right, nothing will happen. (No news is good news, right?)
 
 To be on the safe side, execute `rvm requirements` next so that rvm can check again for any dependencies it needs. You might need `sudo`, in my case I didn't.
 
-After that, we just need to ditate which version of ruby we want as default. Since ruby was already downloaded, just do:
+After that, we just need to dictate which version of ruby we want as default. Since ruby was already downloaded, just do:
 
 `rvm use ruby --default`
 
@@ -89,13 +88,13 @@ This is simple. Just do `gem install github-pages`. Sit back and watch your comp
 
 I'm adding this step because as a person that never used ruby before, I had this perception that using gems was something like running java classes or python scripts. (I actually Googled how to run gems). Turns out the issue I had was that the gems weren't properly set up when I was using the older version of Ruby, so I felt like a monkey doing `gem github-pages`, `sudo gem github-pages` or `ruby github-pages`. All left me with command not found errors. The GitHub pages tutorial left me a little confused here. 
 
-Turns out all I had to do was `github-pages` in the teminal! (which I previously couldn't because it didn't set up correctly and in my haste did not notice the message telling me I didn't do it right)
+Turns out all I had to do was `github-pages` in the terminal! (which I previously couldn't because it didn't set up correctly and in my haste did not notice the message telling me I didn't do it right)
 
 So all you need to do to "use gems" in the terminal is just to type the name of the gem, and whatever parameters you need. 
 (Try `github-pages health-check`, it told me I had no CNAME in current directory, which made sense because I don't have a custom domain name at of writing.)
 
 > **What are gems?**
-> A bundle of joy that contains code, docmentations, and details of it's origin/creator. For us we'll use it like any other regular program in the bash terminal. See [the official explanation on this](http://guides.rubygems.org/what-is-a-gem/) for more info. 
+> A bundle of joy that contains code, documentations, and details of it's origin/creator. For us we'll use it like any other regular program in the bash terminal. See [the official explanation on this](http://guides.rubygems.org/what-is-a-gem/) for more info. 
 
 # Step 5:
 

@@ -5,7 +5,9 @@ meta: off
 permalink: /resume/
 ---
 
-<div style="text-align: center"> (If you're a recruiter or prefer a one-page resume that's properly formatted and condensed, please refer to the official PDF version here \\TO LINK) <br /> This page is a more relaxed on formatting and is definitely more than a page. </div>
+<div style="text-align: center" markdown="1"> (If you're a recruiter or prefer a one-page resume that's properly formatted and condensed, please refer to [the official PDF here]/(assets/leewc-resume.pdf) 
+<br /> This page is more relaxed on style and formatting and is definitely more than a page. 
+</div>
 
 ------
 
@@ -40,7 +42,7 @@ Eden Prairie, Minnesota
 January 2015 - Present 
 
 **What I've done:**
-- Written C# software to create a simulated network using customer's MSSQL database backup, development includes using XAML/WPF to create a simple UI, multi-threading to avoid UI thread from locking, parsing device data and fetching complete device data using XML, and the Managed Extensibility Framework (MEF) for loose coupling between each solution.
+- Written C# software to create a simulated network using customer's MSSQL database backup, development includes using XAML/WPF to create a simple UI, multi-threading to avoid UI thread from locking, parsing device data and fetching complete device data using XML, and the Managed Extensibility Framework (MEF) for loose coupling between each solution. LINQ was also used to extract information from the database and handling the XML data.
 - Upgrade legacy installers (from the VB6 days) to ensure newer versions of Windows can install the utility.
 - Maintain and write Unit Test Plans (UTP) and Software Design Documents (SDD) which are formally reviewed.
 
@@ -50,7 +52,7 @@ January 2015 - Present
 - COM/DCOM is painful stuff but still very much necessary and relevant.
 - To handle code written by 3 other previous interns, which might have bugs and lack of comments.
 - Read and understand thousands of lines of code to make necessary changes. 
-- Branching and shelvsets in TFS.
+- Branching and shelvesets in TFS.
 <br />
 
 ### Undergraduate Teaching Assistant
@@ -77,3 +79,25 @@ March 2014 - June 2014
 - Dabbled into what Splunk, Jenkins, Puppet do and keep the whole system up and running.
 - Performed tape backups on a supercomputer. 
 - How to properly escalate issues and using the RT system to handle support tickets.
+
+-------
+
+## Other Activities
+<br />
+
+### Presenter for the USApps Workshop
+**Taylor's University**
+Klang Valley, Malaysia
+July & August 2013 and 2014
+- USAPPS is non-profit organization by a large team of Malaysian students who study abroad in the United States, where we provide 2 workshops to educate younger students about studying and life in the US, as well as dwell into aspects of the application, essay writing, education pathway, scholarships, and more. I was a part of this group of people who just volunteered and dedicated time off to come together and inspire students about studying in the United States. It is literally *by the students, for the students.*
+- I was fortunate enough for an opportunity to be give 40 minute talk about US education pathways with another friend to the workshop attendees (over 200 students). The workshop was a great success and I met many amazing people along the way. If you're in Malaysia and have friend or younger siblings that are considering studying in the United States but don't have a clue about anything (or just want to meet helpful people) head on over to our [website](http://www.usapps.org/)!
+<br />
+
+### Project Leader for CSE Expo
+**University of Minnesota - Twin Cities**
+- Independently designed and received funding for showcasing 2 hands-on projects (Banana Keyboard and build your own Raspberry Pi laptop) to encourage children from multiple schools to be involved with STEM fields.
+<br />
+
+### Transfer Peer Guide
+**University of Minnesota - Twin Cities**
+- I was in charge of showing students who have transferred to the university from other states and countries how to be accustomed and a part of the universities big and diverse groups. Aside from checking in with them on a monthly basis and providing advice, peer guides were tasked with pointing the new transfers to the right resources and where to get help on common transfer student issues. 

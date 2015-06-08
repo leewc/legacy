@@ -15,7 +15,7 @@ Without further ado, curtain calls for all the technologies that made this site 
 
 ## Jekyll, the static-site generator
 
-Jekyll is a (very) powerful site generator written in Ruby. It's perfect for creating blogs but works for sites too. Unlike Wordpress or some other content management system (CMS), sites generated with Jekyll have no backend database or other moving parts, only a bunch of files. This makes it really fast and efficient. I only found out about Jekyll after my friend KokHouser [(check out his Jekyll blog!)](obsessivecompulsivemisnomer.com) mentioned it when his blog launched. After a lot of research and reading the documentation I felt it would be fun to build a blog in Jekyll, a step-up from my blogger.com days where I used to have a blog named LifehackingWithComputergeek. Plus it's designed to work well with a version control system like Git and using Markdown (I use Kramdown) and combined with YAML and Liquid suited pretty much every software developer out there. The widely-known fact that the ObamaCare campaign used Jekyll to create the pages was also icing on the cake.
+Jekyll is a (very) powerful site generator written in Ruby. It's perfect for creating blogs but works for sites too. Unlike Wordpress or some other content management system (CMS), sites generated with Jekyll have no backend database or other moving parts, only a bunch of files. This makes it really fast and efficient. Plus it's designed to work well with a version control system like Git and using Markdown (I use Kramdown) and combined with YAML and Liquid suited pretty much every software developer out there. The widely-known fact that the ObamaCare campaign used Jekyll to create the pages was also icing on the cake.
 
 - -You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 - -You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
@@ -40,8 +40,6 @@ Although originally bundled with the Helios Theme, I feel that this deserves it'
 
 ## Other Notes
 
-I got introduced to Jekyll before I actually knew about it, seeing all the pretty and minimalist sites. When I first saw it I thought it was some kind of text-to-blog gem that leaves people with a basic theme. So basic. It was only after I dug into porting a theme did I see how ingenious and powerful Jekyll is.
-
 This theme had a ton of CSS written and JavaScript, but it's beautiful. Who doesn't like pretty things? Granted it was a little of an inconvenience to port it over from just a HTML template but I definitely learnt a lot about Jekyll along the way too. It's definitely fun and I can see why the entry point into having a professional looking blog or even web programming in general has become much easier and forgiving over the years. (Or maybe that's just me).
 
 <a href="http://stackoverflow.com/users/4512948/matrixanomaly" markdown="0">
@@ -55,6 +53,7 @@ This theme had a ton of CSS written and JavaScript, but it's beautiful. Who does
 Armed with only those tools this website would still not be possible without a lot of self discovery, Google-fu and other helpful bloggers, so here's a few more note-worthy mentions that you might be interested in using. (apologies if I missed you out, contact me!)
 
 - The [Source Sans Pro font](https://www.google.com/fonts/specimen/Source+Sans+Pro)
+- [Sublime Text 3](https://www.sublimetext.com/) and [Emacs](http://www.gnu.org/software/emacs/), `-nw` because it's the cool way to Emacs.
 - [List of Posts by Category](http://christianspecht.de/2014/10/25/separate-pages-per-tag-category-with-jekyll-without-plugins/) by Christian Specht
 - [Getting Post thumbnails](https://truongtx.me/2013/01/05/thumbnail-post-list-for-jekyll-bootstrap/) by Trong
 - [Liquid Syntax for Designers, by Shopify](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
