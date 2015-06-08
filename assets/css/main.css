@@ -1253,7 +1253,7 @@ a {
   -ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out; }
   a:hover {
-    color: #ef8376;
+    color: #00b8ff;
     border-bottom-color: transparent; }
 
 sub {
@@ -1330,7 +1330,7 @@ hr {
   .go-top.show {
     bottom: 20px; }
   .go-top:hover {
-    background-color: #df7366;
+    background-color: #2196d3;
     color: #FFFFFF; }
 
 /* Sections/Article */
@@ -1446,7 +1446,7 @@ ul.icons {
       border: 0;
       color: inherit; }
       ul.icons li a:hover {
-        color: #ef8376; }
+        color: #47a9db; }
 
 ol.default {
   list-style: decimal;
@@ -1483,7 +1483,7 @@ form textarea {
   form select:focus,
   form textarea:focus {
     background: #fff;
-    border-color: #df7366; }
+    border-color: #2196d3; }
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
@@ -1534,7 +1534,7 @@ button,
 .button {
   position: relative;
   display: inline-block;
-  background: #df7366;
+  background: #2196d3;
   color: #fff;
   text-align: center;
   border-radius: 0.5em;
@@ -1554,7 +1554,7 @@ button,
   button:hover,
   .button:hover {
     color: #fff;
-    background: #ef8376; }
+    background: #00b8ff; }
   input[type="button"].alt,
   input[type="submit"].alt,
   input[type="reset"].alt,
@@ -1670,7 +1670,7 @@ body.homepage #header {
     font-size: 4em; }
   body.homepage #header:after {
     content: '';
-    background: #1C0920;
+    background: #0A0720;
     display: block;
     position: absolute;
     left: 0;
@@ -1760,7 +1760,7 @@ body.homepage.is-loading #header:after {
     .dropotron li:first-child {
       border-top: 0; }
     .dropotron li:hover {
-      color: #ef8376; }
+      color: #47a9db; }
     .dropotron li a, .dropotron li span {
       display: block;
       border: 0;
@@ -1881,7 +1881,7 @@ body.homepage.is-loading #header:after {
       margin: -1.5em 0 0 0;
       background: url("images/arrow.svg") no-repeat center center; }
     .carousel .forward:hover:before, .carousel .backward:hover:before {
-      background-color: rgba(239, 131, 118, 0.75); }
+      background-color: #2196d3; }
   .carousel .forward {
     right: 0; }
     .carousel .forward:before {

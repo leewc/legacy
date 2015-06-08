@@ -124,7 +124,7 @@
 		@include vendor('transition', ('background-color 0.35s ease-in-out', 'color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 
 		&:hover {
-			color: #ef8376;
+			color: #00b8ff;
 			border-bottom-color: transparent;
 		}
 	}
@@ -221,7 +221,7 @@
 		}
 
 		&:hover {
-		  background-color: #df7366;
+		  background-color: rgba(33, 150, 211, 1);;
 		  color: #FFFFFF;
 		}
 	}
@@ -400,7 +400,7 @@
 					color: inherit;
 
 					&:hover {
-						color: #ef8376;
+						color: rgba(71, 169, 219, 1);;
 					}
 				}
 			}
@@ -445,7 +445,7 @@
 
 			&:focus {
 				background: #fff;
-				border-color: #df7366;
+				border-color: rgba(33, 150, 211, 1);
 			}
 		}
 
@@ -536,7 +536,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: rgba(33, 150, 211, 1);
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -550,7 +550,7 @@
 
 		&:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #00b8ff;
 		}
 
 		&.alt {
@@ -713,7 +713,7 @@
 
 			&:after {
 				content: '';
-				background: #1C0920;
+				background: #0A0720;
 				display: block;
 				position: absolute;
 				left: 0;
@@ -825,7 +825,7 @@
 			}
 
 			&:hover {
-				color: #ef8376;
+				color: rgba(71, 169, 219, 1);
 			}
 
 			a, span {
@@ -1002,7 +1002,7 @@
 
 			&:hover {
 				&:before {
-					background-color: rgba(239, 131, 118, 0.75);
+					background-color: rgba(33, 150, 211, 1);
 				}
 			}
 		}
