@@ -10,9 +10,9 @@
 <html>
 	
 	{% include head.html %}
-	{% include js.html %}
 
 	<body class="no-sidebar">
+		<div id="page-wrapper">
 
 		{% include header.html %}
 
@@ -26,31 +26,31 @@
       -->
     	{% endcomment %}
 
-      	<div class="wrapper style1">
+	      	<div class="wrapper style1">
 
-			<div class="container">
-				<article id="main" class="special">
+				<div class="container">
+					<article id="main" class="special">
 
-				<header>
-					<h2><a href="#">{{ page.title }} </a></h2>
-					<p>
-						{{ page.subtitle }}
-					</p>
-				</header>
-					
-					{% include page-meta.html %}
+					<header>
+						<h2><a href="#">{{ page.title }} </a></h2>
+						<p>
+							{{ page.subtitle }}
+						</p>
+					</header>
+						
+						{% include page-meta.html %}
 
-					{{ content }} 
+						{{ content }} 
 
 				</article>
 		
 			<hr/>
 				<!-- {% include featured-row.html %} -->
 			</div>
+
+			{% include footer.html %}
 		</div>
-
-		{% include footer.html %}
-
+			{% include js.html %}
   	</body>
 
 </html>
