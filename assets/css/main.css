@@ -1370,7 +1370,7 @@ img.totem {
   outline: 0; }
   .image img {
     display: block;
-    width: auto; }
+    width: 100%; }
   .image.fit {
     display: block;
     width: 100%; }
