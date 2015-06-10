@@ -1361,8 +1361,9 @@ footer {
 img.totem {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 80%; }
+  margin-right: auto; 
+  max-width: 100%;
+  width: auto; }
 
 .image {
   position: relative;
