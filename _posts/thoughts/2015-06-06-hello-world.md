@@ -20,7 +20,7 @@ Anyways. This is my Jekyll blog! At this point it's another place where I voice 
 
 ![serve](/assets/images/posts/thoughts/serve.png){:.totem}
 
-For the uninitiated Jekyll is a static-site generator, but long story short I get to write things in a Markdown format and a pretty blog post shows up. I only found out about Jekyll after my friend KokHouser [(check out his Jekyll blog!)](obsessivecompulsivemisnomer.com) mentioned it when his blog launched. After a lot of research and reading the documentation I felt it would be fun to build a blog in Jekyll, a step-up from my blogger.com days where I used to have a blog named LifehackingWithComputergeek. Not it's not there anymore. I'm a different person now, so I'm keeping that in my closet I suppose.
+For the uninitiated Jekyll is a static-site generator, but long story short I get to write things in a Markdown format and a pretty blog post shows up. I only found out about Jekyll after **my friend Hao Zhe** [(check out his Jekyll blog!)](http://obsessivecompulsivemisnomer.com) mentioned it when his blog launched. After a lot of research and reading the documentation I felt it would be fun to build a blog in Jekyll, a step-up from my blogger.com days where I used to have a blog named LifehackingWithComputergeek. Not it's not there anymore. I'm a different person now, so I'm keeping that in my closet I suppose.
 
 I got introduced to Jekyll before I actually knew about it, seeing all the pretty and minimalist sites. When I first saw it I thought it was some kind of text-to-blog gem that leaves people with a basic theme. So basic. It was only after I dug into porting a theme did I see how ingenious and powerful Jekyll is.
 
@@ -37,7 +37,9 @@ A word on the Favicon as well as the icon you'll get if you add my website to yo
 
 ![ouroboros-favicon](/assets/leewc-152.png){: .totem}
 
-The image was remixed from this [image](https://ouroboricphilosophy.wordpress.com/tag/ouroboros/). Initially it was going to be just a circular brush that had a calligraphy touch and signified that Ouroboros in a more subtle way, but it felt a little less original. I had opinions from Natthan on which one to go for. (By the way you should check out [his](contraultra.me) Jekyll blog too.)
+The image was remixed from this [image](https://ouroboricphilosophy.wordpress.com/tag/ouroboros/). Initially it was going to be just a circular brush that had a calligraphy touch and signified that Ouroboros in a more subtle way, but it felt a little less original. I had opinions from my buddy **Natthan** on which one to go for. (By the way you should check out **[his Jekyll blog](http://contraultra.me)** too.)
+
+Here's the previous logo I *almost* went for:
 
 ![brush-favicon](/assets/images/posts/thoughts/brush-leewc-152.png){:.totem }
 

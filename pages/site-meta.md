@@ -17,8 +17,8 @@ Without further ado, curtain calls for all the technologies that made this site 
 
 Jekyll is a (very) powerful site generator written in Ruby. It's perfect for creating blogs but works for sites too. Unlike Wordpress or some other content management system (CMS), sites generated with Jekyll have no backend database or other moving parts, only a bunch of files. This makes it really fast and efficient. Plus it's designed to work well with a version control system like Git and using Markdown (I use Kramdown) and combined with YAML and Liquid suited pretty much every software developer out there. The widely-known fact that the ObamaCare campaign used Jekyll to create the pages was also icing on the cake.
 
-- -You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-- -You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+- -You can find the source code for the Jekyll new theme at: [http://github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+- -You can find the source code for Jekyll at [http://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 - -And the documentation. I constantly learnt new things from referring to it. Even if it was confusing at times, taking the time to read and understand it really helped. 
 <br />
 
@@ -30,7 +30,7 @@ I've ported the theme to work on Jekyll, which you can find the original source 
 
 I should probably note that the license for the theme is [Creative Commons Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/) which is different from the rest of the website. On that note, all my additional code are released under the MIT license.
 
-Also, at time of writing the theme wasn't updated yet, it has since changed when I ported it over, and the original theme now uses SASS as well, so I made a branch and ported those features over as well. Here is [version 3](https://github.com/leewc/leewc.github.io/archive/Helios-for-Jekyll-v3-lee.tar.gz), go nuts with it! I'd love to hear what you end up making from it. I'd recommend you go with version 3 as it's the most up to date version that doesn't have different CSS style files and even more optimized JavaScript.
+Also, at time of writing the theme wasn't updated yet, it has since changed when I ported it over, and the original theme now uses SASS as well, so I made a branch and ported those features over as well. **Here is [version 3.1](https://github.com/leewc/leewc.github.io/archive/Helios-for-Jekyll-v3.1-lee.zip), go nuts with it!** I'd love to hear what you end up making from it. I'd recommend you go with version 3 as it's the most up to date version that doesn't have different CSS style files and even more optimized JavaScript.
 <br />
 
 ## Font Awesome

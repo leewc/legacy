@@ -1,6 +1,9 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
+---
+---
+
+@import 'vars';
+@import 'functions';
+@import 'mixins';
 @charset "UTF-8";
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600');
 @import url('font-awesome.min.css');
@@ -12,7 +15,7 @@
 	Edited SASS to add back to top and customized edits.
 */
 
-	@import "libs/skel";
+	@import "skel";
 
 	@include skel-breakpoints((
 		wide: '(max-width: 1680px)',

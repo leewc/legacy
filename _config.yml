@@ -33,6 +33,10 @@ excerpt_separator: <!-- more -->
 
 exclude: [_exclude, "README.markdown", "Gemfile.lock", "Gemfile"]
 
+sass:
+    sass_dir: assets/css/sass_libs
+    style: compressed
+
 gems:
     - jekyll-sitemap
     #- jemoji -- disabled till Jekyll 2.5 is used in Github Pages and Jemoji is updated for Jekyll 2.x.
