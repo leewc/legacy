@@ -36,7 +36,7 @@ exclude: [_exclude, "README.markdown", "Gemfile.lock", "Gemfile"]
 
 sass:
     sass_dir: assets/css/sass_libs
-    style: compressed
+    #style: compressed #cloudflare is doing this automatically
 
 gems:
     - jekyll-sitemap

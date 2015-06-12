@@ -658,6 +658,7 @@
 			margin: 0;
 			display: inline-block;
 			vertical-align: middle;
+			@include vendor('user-select',('none'));
 		}
 
 		header {
