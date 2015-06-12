@@ -5,7 +5,7 @@ meta: off
 permalink: /resume/
 ---
 
-<div style="text-align: center" markdown="1"> (If you're a recruiter or prefer a one-page resume that's properly formatted and condensed, please refer to [the official PDF here]/(assets/leewc-resume.pdf) 
+<div style="text-align: center" markdown="1"> (If you're a recruiter or prefer a one-page resume that's properly formatted and condensed, please refer to [the official PDF here](/assets/leewc-resume.pdf) 
 <br /> This page is more relaxed on style and formatting and is definitely more than a page. 
 </div>
 
