@@ -9,12 +9,13 @@
 <html>
 
 	{% include head.html %}
-	
+	<link rel="stylesheet" href="/assets/css/syntax.css"> 
 		<body class="right-sidebar">
 			<div id="page-wrapper">
 
 		{% include header.html %}
-
+		
+	{% comment %}
 		<!-- We don't want to wrap content from layouts that use frontpage styling as those should be contained within their own sections. And putting it nested in another div class will not differentiate the sections and not split sections up per styles in CSS
       <div class="page-content">
         <div class="wrapper">
@@ -22,6 +23,7 @@
         </div>
       </div>
       -->
+    {% endcomment %}
 
 		<div class="wrapper style1">
 	      	<div class="container">
