@@ -25,7 +25,7 @@ linkedin_profile: https://www.linkedin.com/pub/profile  #place the link to your 
 # Build settings
 markdown: kramdown
 highlighter: pygments
-permalink: pretty #removes the .html from link by making all posts have their own folder and named as index.html
+permalink: none # 'pretty keeps the dates', 'none' does not, both removes the .html from link by making all posts have their own folder and named as index.html
 
 kramdown: 
     input: GFM
