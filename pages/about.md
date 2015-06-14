@@ -23,7 +23,7 @@ Everyone wants to be a part of something big, and I'm not ashamed to say that I 
 <div style="text-align: center" markdown="1"> <i>Credit: Image taken from [this Wordpress blog](https://psychneuro.wordpress.com/2013/04/16/i-wanna-be-the-very-best/)</i>
 </div>
 
-Though I am familiar that the generation I'm a part of [are probably unhappy](http://waitbutwhy.com/2013/09/why-generation-y-yuppies-are unhappy.html) due to this fixation on thinking we're all special and unique, doesn't mean we all can't dream.  
+Though I am familiar that the generation I'm a part of [are probably unhappy](http://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html) due to this fixation on thinking we're all special and unique, doesn't mean we all can't dream.  
 
 Although, I'm also more of a practical person. While I do dream, I find myself considering how practical something is. If it's not pragmatic, it doesn't mean that I won't work on it, but I'll approach it in a **practical** way. Of course this doesn't stop me from being optimistic and hopeful about new things, it's just that my perspective comes with a hint of skepticism as to how things will work out. Probably one of the reasons why I feel more fulfilled when I see the results of me hunched over a laptop for hours come together (*hopefully*), elegant or not. 
 

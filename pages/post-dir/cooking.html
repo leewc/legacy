@@ -19,7 +19,7 @@ permalink : /cooking/
 		<article id="main" class="special">
 
 		<header>
-			<h2><a href="#">{{ page.title }} </a></h2>
+			<h2><a href="{{ page.url }}">{{ page.title }} </a></h2>
 			<p>
 				{{ page.subtitle }}
 			</p>
@@ -32,7 +32,7 @@ permalink : /cooking/
 	<div class="reel">
 		{% for post in site.categories['cooking'] %}
 		  <article>
-		    <a class="image featured" href="{{ post.url | prepend: site.baseurl }}"><img src="/assets/images/posts/{{ post.thumbnail }}" alt=""/></a>
+		    <a class="image featured" href="{{ post.url | prepend: site.baseurl }}"><img src="/assets/images/posts/{{ post.thumbnail }}" alt="{{ post.title }} thumbnail"/></a>
 		    <header>
 		      <h3><a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a></h3>
 		    </header>

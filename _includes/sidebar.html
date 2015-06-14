@@ -27,7 +27,7 @@
 				<div class="row 50% no-collapse">
 					{% if post.thumbnail %}
 						<div class="4u">
-						<a href= {{ post.url | prepend: site.baseurl }} class="image fit"><img src="/assets/images/posts/{{ post.thumbnail }}" alt="" /></a>
+						<a href= {{ post.url | prepend: site.baseurl }} class="image fit"><img src="/assets/images/posts/{{ post.thumbnail }}" alt=" {{post.title }} thumbnail" /></a>
 						</div>
 					{% endif %}
 					<div class="8u">
