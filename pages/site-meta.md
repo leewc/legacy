@@ -47,6 +47,7 @@ This theme had a ton of CSS written and JavaScript, but it's beautiful. Who does
 </a>
 <br />
 
+*Special shout out to Cloudflare* for providing a free DNS Nameserver that provides flexible SSL (this is why you see a  green lock next to my website name in your browser) and a ton of awesome tweaks! I was blown away by how much features they gave away for free. Used it mainly to get HTTPS going rather than the insecure HTTP, but ended up using a ton of their extra features too! I should do a blog post about this, but for now here's a few links on setting up [free SSL](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/) on [Cloudflare](https://support.cloudflare.com/hc/en-us/articles/201720164-Sign-up-planning-guide) for [GitHub pages](https://me.net.nz/blog/github-pages-secure-with-cloudflare/), all [comprehensive](https://www.benburwell.com/posts/configuring-cloudflare-universal-ssl/) and easy to follow through.
 
 ## Also worth mentioning ...
 
@@ -62,3 +63,4 @@ Armed with only those tools this website would still not be possible without a l
 - [Back to top Button](http://www.jqueryscript.net/other/Minimal-Back-To-Top-Functionality-with-jQuery-CSS3.html) which I adapted by not using the JQuery supplied and instead the Scrolly script included with the theme
 - [Responsive Images and Responsive Design](http://webdesignerwall.com/tutorials/5-useful-css-tricks-for-responsive-design) allowed for centered images that scale according to screen size! :)
 - [Favicon Sizes Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet) by Audrey
+- [How to set short Jekyll URLs](http://joshualande.com/short-urls-jekyll/) and [this blog](https://davidtuite.com/posts/how-to-manage-permalinks-in-jekyll) as well
