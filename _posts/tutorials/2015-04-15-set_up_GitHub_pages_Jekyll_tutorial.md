@@ -4,6 +4,7 @@ subtitle: A quick guide to making it all work.
 date: 2015-04-11 21:36
 category: tutorials
 layout : no-sidebar
+comments : true
 ---
 
 
@@ -71,7 +72,7 @@ Lastly, we need RubyGems, which is a 'sophisticated package manager for Ruby' as
 
 Done.
 
-#To avoid having to run the source command every time ..
+# To avoid having to run the source command every time ..
 We need to add `[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"` to the bashrc file.
 
 This is done by giving your favorite text editor sudo priveledges and modifying `~/.bashrc`.

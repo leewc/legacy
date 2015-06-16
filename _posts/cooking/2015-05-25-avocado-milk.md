@@ -5,6 +5,7 @@ date: 2015-05-25
 category: cooking
 layout : right-sidebar
 thumbnail: /cooking/avocado3.jpg
+comments : true
 ---
 
 So my house mates were the ones that introduced me to try avocados (avocadoes?) with milk. 

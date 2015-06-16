@@ -5,6 +5,7 @@ date: 2015-05-24
 category: cooking
 layout : left-sidebar
 thumbnail : /cooking/mushroom-burger-v1.jpg
+comments : true
 ---
 
 I'm a fan of burgers. 
@@ -75,10 +76,11 @@ Here's a 15 second video for an overview of how this will be made.
 Let's begin! *This should take about 45 minutes, half an hour if you're fast.*
 *Note to self: <s>Portabella</s>, <s>Portabello</s>, **Portobello** Mushrooms, I've been correcting myself so much in writing this post.*
 
-### Steps to Make the Epic Mushroom Burger:
+## Steps to Make the Epic Mushroom Burger:
 <br />
 
 ### Wash, Make the Marinade.
+<br /> 
 
 Well mushrooms are from the dirt or rotting wood so you definitely want to wash them to remove the woody taste and texture of dirt. Make sure to get inside and rinse the 'gills' as well.
 
@@ -94,6 +96,7 @@ Place in the mushroom caps gently into the marinade and move it around. Scoop th
 ![Mushroom Burger Prep](/assets/images/posts/cooking/mushroom-burger-prep.jpg){: .totem}
 
 ### Prepare everything else and grill the mushroom cap.
+<br />
 
 While waiting for that mushroom to be marinated and transformed from a bland, plain ol' mushroom into something that tastes like meat (to me at least), go ahead and prepare other ingredients, such as sauté the onions with those little mushrooms so they're caramelized, chop up the lettuce and tomato, fry the egg way you want it. The issue we run into here is that these ingredients will become cold while waiting for the mushroom to be roasted. If you waited till you've put in the mushroom to broil to prepare everything else, your patty will cook and turn cold by then, so the key here is to parallelize everything and multi-task. I wanted my bun to be toasty so I only did that when the mushroom cap was almost done, whereas I caramelized the onions and mushrooms, made my egg and guacamole before grilling the mushroom.
 
@@ -116,13 +119,15 @@ Pull them out of the oven after 3 minutes and layer your cheese on top of it. Th
 Place it back in for another 2-3 minutes, and then take it out. Or when your cheese starts to darken it's time to take it out of the oven. 
 
 ### Assembling Your Burger.
+<br />
 
 Almost there. Assemble your burger into a tower of goodness. From bottom up I did Bun, Lettuce, Tomato, Portobello patty with cheese, caramelized onions and smaller mushrooms, egg, burger bun. If you're making it open faced (you know, to take pictures and show your parents that you can cook more than ramen or pasta), build up the onions, mushrooms, egg on the other side of the bun (see my picture).  
 
 Here's another combination: Bun, Lettuce, Tomato, Portobello patty with cheese, Avocado slices/guacamole, egg (sunny side up!, Enoki Mushrooms, Bun.
 
 
-#Finally#
+### Finally ...
+<br />
 
 Substitute the ingredients, swap, remove, add more! Add bacon if you prefer, or use reduced fat cheese if you're on a diet. The beauty about burgers is you get to put what you want, you're the chef, you're the one that calls the shots, my friend.
 

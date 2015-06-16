@@ -5,6 +5,7 @@ date: 2015-03-11
 category: cooking
 layout : right-sidebar
 thumbnail: /cooking/fried-tofu.jpg
+comments : true
 ---
 
 (Yay first cooking post!)

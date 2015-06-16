@@ -45,9 +45,17 @@
 						{{ content }} 
 
 				</article>
-		
-			<hr/>
-				{% comment %} <!-- {% include featured-row.html %} --> {% endcomment %}
+			
+			<hr />
+			
+			{% include comments.html %}
+
+			{% comment %}
+				<!-- Bottom Article Carousel. TODO: need to make this display other posts-->
+				<hr /> 
+				{% include featured-row.html %} 
+			{% endcomment %}
+			</div>
 			</div>
 		</div>
 			{% include footer.html %}
