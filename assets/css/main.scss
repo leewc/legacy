@@ -208,8 +208,9 @@
 	  position: fixed;
 	  bottom: -40px;
 	  right: 20px;
+	  opacity: 0.5;
 	  -webkit-transition: all 1s ease;
-	  -moz-transition: all 1s ease;
+	  -moz-transition:all 1s ease;
 	  -o-transition: all 1s ease;
 	  transition: all 1s ease;
 	  background-color: #404040;
@@ -219,7 +220,7 @@
 	  border-radius: 5px;
 
 		&.show { 
-			bottom: 20px; 
+			bottom: 20px;
 		}
 
 		&:hover {
