@@ -244,36 +244,27 @@
 
 			});
 
-	/*Display go-top button & menu when scrolling - then hide after few seconds */
-	var timeout_handle;
-	$(window).scroll(function(event){
-		var scroll = $(window).scrollTop();
-	    if (scroll >= 300) {
-	        window.clearTimeout(timeout_handle);
-	        $(".go-top").addClass("show");
-	        $(".toggle").fadeIn(1000);
-	        timeout_handle = setTimeout(
-	        	function () { 
-	        		$(".go-top").removeClass("show");
-	        		$(".toggle").fadeOut(500);
-	        	}, 2800);
+	/* Display go-top button & menu when reaching the end, only menu initally.  */
+	/* adapted: https://gist.github.com/toshimaru/6102647 */
+	$(window).on('scroll', function() {
+		var scrollHeight = ($("#main").height() > $("#major").height()) ? $("#main").height() : $("#major").height();
+		var scrollPosition = $(window).height() + $(window).scrollTop();
+		 
+	    if ($(window).scrollTop() < 500) {
+	    	console.log("Case 1");
+	    	$(".toggle").fadeIn(1000);
+		} else if ((scrollHeight - scrollPosition) / scrollHeight < 0){
+			$(".go-top").addClass("show");
+			$(".toggle").fadeIn(1000);
+	    	console.log("Case 2");
 	    } else {
 	        $(".go-top").removeClass("show");
-	        window.clearTimeout(timeout_handle);
-	        $(".toggle").fadeIn(500);
+	        $(".toggle").fadeOut(1000);
+	    	console.log("Case 3");
+
 	    }
 	});
 
-	$(".go-top").hover(
-		function(){
-			window.clearTimeout(timeout_handle);
-		}, function()
-		{
-			setTimeout(
-	        	function () {
-	        		window.clearTimeout(timeout_handle); 
-	        		$(".go-top").removeClass("show");}, 1000);
-		});
 	});
 
 })(jQuery);
