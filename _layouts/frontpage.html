@@ -5,7 +5,6 @@
 
   <body class="homepage">
     <div id="page-wrapper">
-    <div id="major">
 
     
       {% include header-with-button.html %}
@@ -13,6 +12,7 @@
       
       {{ content }}
 
+      {% comment %}
       <!-- We don't want to wrap content from layouts that use frontpage styling as those should be contained within their own sections. And putting it nested in another div class will not differentiate the sections and not split sections up per styles in CSS
       <div class="page-content">
         <div class="wrapper">
@@ -20,8 +20,8 @@
         </div>
       </div>
       -->
+      {% endcomment %}
 
-    </div>
     {% include footer.html %}
     </div>
     {% include js.html %}

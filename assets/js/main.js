@@ -244,24 +244,18 @@
 
 			});
 
-	/* Display go-top button & menu when reaching the end, only menu initally.  */
-	/* adapted: https://gist.github.com/toshimaru/6102647 */
+	/* Display rules for back-to-top and toggle button */
+	var scrollHeight = $("#page-wrapper").height();
 	$(window).on('scroll', function() {
-		var scrollHeight = ($("#main").height() > $("#major").height()) ? $("#main").height() : $("#major").height();
-		var scrollPosition = $(window).height() + $(window).scrollTop();
-		 
+		var scrollPosition = $(window).height() + $(window).scrollTop();	
 	    if ($(window).scrollTop() < 500) {
-	    	console.log("Case 1");
-	    	$(".toggle").fadeIn(1000);
+	    	$(".toggle").fadeIn(800);
 		} else if ((scrollHeight - scrollPosition) / scrollHeight < 0){
 			$(".go-top").addClass("show");
-			$(".toggle").fadeIn(1000);
-	    	console.log("Case 2");
+			$(".toggle").fadeIn(800);
 	    } else {
 	        $(".go-top").removeClass("show");
-	        $(".toggle").fadeOut(1000);
-	    	console.log("Case 3");
-
+	        $(".toggle").fadeOut(800);
 	    }
 	});
 
