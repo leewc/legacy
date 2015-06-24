@@ -31,8 +31,13 @@ Think that pretty much fits the bill for an about me page. At least in professio
 
 Although you won't always catch me saying this with dripping enthusiasm, I look forward to what life will bring me, at least I try to tell myself that. Oh, I also like photography although I haven't devoted enough time and effort in fully exploring that path. The background photo on this website was shot by me at Sausalito during my trip in California. Image metadata tells me it was taken at coordinates (37°50'59.1"N 122°28'47.7"W). 
 
+**Perhaps I forget this at times**, but on a more abstract scale what I want to do in Computer Science is to make a difference, and help people solve problems. Maybe it's the same kick I get when being able to help someone understand things better, on StackOverflow or in real life. To have made a difference in software that positively impacts another person's life.    
+
 Check me out on [StackOverflow](https://www.stackoverflow.com/users/4512948/matrixanomaly), and follow me on [Twitter](https://www.twitter.com/wenchuanlee) if you're interested. ☺
 
 Also, my [resume](/resume/) for a more professional look on what I've been up to. 
 
 Thanks again for dropping by! 
+
+<hr />
+<div style="text-align: center"> "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well." <br/> - <i>Ralph Waldo Emerson or Leo Rosten </i> </div>
