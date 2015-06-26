@@ -64,3 +64,4 @@ Armed with only those tools this website would still not be possible without a l
 - [Responsive Images and Responsive Design](http://webdesignerwall.com/tutorials/5-useful-css-tricks-for-responsive-design) allowed for centered images that scale according to screen size! :)
 - [Favicon Sizes Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet) by Audrey
 - [How to set short Jekyll URLs](http://joshualande.com/short-urls-jekyll/) and [this blog](https://davidtuite.com/posts/how-to-manage-permalinks-in-jekyll) as well
+- [Anchor links/Permalinking/Deeplinking](http://blog.parkermoore.de/2014/08/01/header-anchor-links-in-vanilla-javascript-for-github-pages-and-jekyll/) by Parker himself, and also [Ben Balter](http://ben.balter.com/2014/03/13/pages-anchor-links/)

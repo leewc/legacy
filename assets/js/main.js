@@ -244,20 +244,37 @@
 
 			});
 
-	/* Display rules for back-to-top and toggle button */
+	/* Display rules for back-to-top and toggle button with delayed scrolling*/
 	var scrollHeight = $("#page-wrapper").height();
+	var timer;
 	$(window).on('scroll', function() {
-		var scrollPosition = $(window).height() + $(window).scrollTop();	
-	    if ($(window).scrollTop() < 500) {
-	    	$(".toggle").fadeIn(800);
-		} else if ((scrollHeight - scrollPosition) / scrollHeight < 0){
-			$(".go-top").addClass("show");
-			$(".toggle").fadeIn(800);
-	    } else {
-	        $(".go-top").removeClass("show");
-	        $(".toggle").fadeOut(800);
-	    }
+		if (timer) 
+			window.clearTimeout(timer);
+		timer = window.setTimeout(function() {
+			var scrollPosition = $(window).height() + $(window).scrollTop();	
+		    if ($(window).scrollTop() < 500) {
+		    	$(".toggle").fadeIn(800);
+			} else if ((scrollHeight - scrollPosition) / scrollHeight <= 0){
+				$(".go-top").addClass("show");
+				$(".toggle").fadeIn(800);
+		    } else {
+		        $(".go-top").removeClass("show");
+		        $(".toggle").fadeOut(800);
+		    }
+	    }, 150);
 	});
+
+	$(function() {
+  		return $("h1, h2, h3, h4, h5, h6").each(function(i, el) {
+    	var $el, icon, id;
+    	$el = $(el);
+	    id = $el.attr('id');
+	    icon = '<i class="fa fa-link" title="Permalink"></i>';
+	    if (id)
+      		return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+  		});
+	});
+
 
 	});
 

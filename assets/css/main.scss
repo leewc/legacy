@@ -209,15 +209,11 @@
 	  bottom: -40px;
 	  right: 20px;
 	  opacity: 0.5;
-	  -webkit-transition: all 1s ease;
-	  -moz-transition:all 1s ease;
-	  -o-transition: all 1s ease;
-	  transition: all 1s ease;
 	  background-color: #404040;
 	  color: #FFFFFF;
 	  text-decoration: none;
-	  -moz-border-radius: 5px;
 	  border-radius: 5px;
+	   @include vendor('transition', 'all 1s ease');
 
 		&.show { 
 			bottom: 20px;
@@ -228,6 +224,26 @@
 		  color: #FFFFFF;
 		}
 	}
+
+/*Page anchor links*/
+.header-link {
+  position: relative;
+  opacity: 0;
+  font-size: 0.7em;
+  left: 0.5em;
+  display: inline-block;
+
+   @include vendor('transition', 'opacity 0.2s ease-in-out 0.1s');
+}
+
+h1, h2, h3, h4, h5, h6 {
+	&:hover  {
+	  	.header-link{ 
+	  		opacity: 1;
+	  	}
+	}
+}
+
 
 /* Sections/Article */
 
