@@ -1,6 +1,6 @@
 ---
 title : Portobello Mushroom Burger Recipe
-subtitle: Healthy burgers don't have to be tasteless. 
+subtitle: Healthy burgers aren't always tasteless. 
 date: 2015-05-24
 category: cooking
 layout : left-sidebar

@@ -18,7 +18,7 @@ I speak 3 languages, English being my first language, Mandarin being my second o
 Everyone wants to be a part of something big, and I'm not ashamed to say that I too, would want to **be a part of** something big, or **start** something big.
 <br />
 
-![I wanna be the very best](/assets/images/theverybest.jpg){: .totem}
+[<img src="/assets/images/theverybest.jpg" class="totem" alt="I wanna be the very best">](https://psychneuro.wordpress.com/2013/04/16/i-wanna-be-the-very-best/)
 
 <div style="text-align: center" markdown="1"> <i>Credit: Image taken from [this Wordpress blog](https://psychneuro.wordpress.com/2013/04/16/i-wanna-be-the-very-best/)</i>
 </div>
