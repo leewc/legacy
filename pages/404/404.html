@@ -1,0 +1,57 @@
+---
+permalink: /404.html
+---
+
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>404 - {{ site.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/assets/css/404.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/404-ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1> That's a 404.</h1>
+						<p>Sorry, the page you're looking for couldn't be found.</p>
+						<p>(╯°□°）╯︵ ┻━┻ </p>
+						<p><a href="{{ site.url }}"> [Go Back] </a></p>
+						<nav>
+							<ul>
+		                    <li><a href="https://www.stackoverflow.com/users/{{ site.stackoverflow_username }}" class="icon fa-stack-overflow"><span class="label">Stack Overflow</span></a></li>
+		                    <li><a href="https://www.github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">GitHub</span></a></li>                   
+		                    <li><a href="https://www.twitter.com/{{ site.twitter_username }}" class="icon fa-tweeter"><span class="label">Twitter</span></a></li>
+		                    <li><a href="mailto:{{ site.email }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		                    <!-- <li><a href="{{ site.linkedin_profile }}" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li> -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; leewc. Design: <a href="http://html5up.net/aerial">HTML5 UP</a> by n33.</span>
+					</footer>
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
