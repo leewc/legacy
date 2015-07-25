@@ -15,7 +15,7 @@ The user stumbled upon this when trying to test code in another machine, which h
 
 Consider the following string:
 
-	String myString = helloworld;
+	String myString = "helloworld";
 
 In Java 7, calling `myString.split("")` would yield `|h|e|l|l|o|w|o|r|l|d|` with a length of 11 in the array.
 
