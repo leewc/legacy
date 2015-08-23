@@ -20,7 +20,7 @@ facebook_username: wenchuan21 	#username when you view your timeline (also found
 instagram_username: wenchuan_lee
 stackoverflow_username: 4512948/matrixanomaly #userid/username, will be a link as : http://stackoverflow.com/users/{{stackoverflow_username}}
 
-linkedin_profile: https://www.linkedin.com/pub/profile  #place the link to your linkedin profile here 
+linkedin_profile: https://www.linkedin.com/in/wenchuanlee  #place the link to your linkedin profile here 
 
 # Build settings
 markdown: kramdown
