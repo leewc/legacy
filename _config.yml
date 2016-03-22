@@ -24,7 +24,7 @@ linkedin_profile: https://www.linkedin.com/in/wenchuanlee  #place the link to yo
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: "/:categories/:title" # 'pretty' keeps the dates but removes .html, 'none' does not, but keeps  the .html, this removes dates and the .html
 
 kramdown: 
