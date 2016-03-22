@@ -30,6 +30,8 @@ However, this led to the InfoWindow only displaying information about the last i
 
 After a bit of head scratching and Google-fu, I then realized I had stumbled onto an issue caused by **closures**.
 
+<!-- more -->
+
 ## The actual problem
 
 JavaScript has a language construct called closures, which capture references to external variables. What was happening here was that the function that was added to the marker as a listener would only hold the reference to the last 'infowindow' instance, due to closures. Another way to wrap your head around this is that the functions are only invoked when the event is actually called, which by then the `Infowindow` to be opened is the last item in the data array we iterated through. Coming from a mostly-Java background, this confused me for a little bit as the same kind of code in Java would not have this 'weird' issue of all custom markers (in an array) only displaying information from the last item in the data array.
