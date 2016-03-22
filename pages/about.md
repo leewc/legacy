@@ -5,15 +5,7 @@ meta: off
 permalink: /about/
 ---
 
-I'm Lee, currently a senior studying *Computer Science* at the **University of Minnesota, Twin Cities**. Ergo, I'm currently located in Minneapolis.
-
-Well, I usually go by my last name as my first name, because Wen Chuan Lee isn't the easiest name to pronounce, and it's a common occurrence people think 'Chuan' is my middle name which gets truncated to Wen Lee. Not that there's anything wrong with that name, but I definitely prefer just 'Lee' over the single 'Wen'. 
-
-I'm from originally **Malaysia** where it's easily over 32°C [89°F] and survived 2 cold winters here in Minnesota where it's usually -25°C [-13°F]. The only other time I've seen snow was this one time in Korea. At this rate I've seen and lived with enough snow for a lifetime. I am also 8981 miles away (14453.5 kilometers for us metric people) from home.
-
-I speak 3 languages, English being my first language, Mandarin being my second one and then Bahasa Malaysia. I also know other languages.
-
-<span  markdown="0"><s>I like taking long walks on the beach and watching Netflix on a lazy Sunday. I'm a hopeless romantic</s> Oh, er, wrong about me there. </span>
+I'm Lee, currently a senior studying *Computer Science* at the **University of Minnesota, Twin Cities**.
 
 Everyone wants to be a part of something big, and I'm not ashamed to say that I too, would want to **be a part of** something big, or **start** something big.
 <br />
@@ -32,9 +24,6 @@ Although you won't always catch me saying this with dripping enthusiasm, I look 
 
 Check me out on [StackOverflow](https://www.stackoverflow.com/users/4512948/matrixanomaly), and follow me on [Twitter](https://www.twitter.com/wenchuanlee) if you're interested. ☺
 
-Also, my [resume](/resume/) for a more professional look on what I've been up to. 
-
-Thanks again for dropping by! 
 
 <hr />
 <div style="text-align: center"> "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well." <br/> - <i>Ralph Waldo Emerson or Leo Rosten </i> </div>
