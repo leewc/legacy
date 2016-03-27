@@ -10,8 +10,8 @@ description: A blog on programming, software development, thoughts, and food.
 #  Google search results) and in your feed.xml site description.
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://leewc.com" 	# the base hostname & protocol for your site
-enforce_ssl: "leewc.com"
+url: "https://legacy.leewc.com" 	# the base hostname & protocol for your site
+enforce_ssl: "legacy.leewc.com"
 
 #usernames used in social media links in the contact footer
 twitter_username: wenchuanlee
